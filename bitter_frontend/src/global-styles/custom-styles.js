@@ -18,7 +18,8 @@ export const CustomButton = styled.div`
         background-color: ${props => props.home ? accentColors[3] : ''};
         transition: transform .2s;
         transform: scale(1.15);
-        color: ${greenColors[2]}
+        color: ${greenColors[2]};
+       
     }
 `;
 
@@ -50,7 +51,8 @@ export const Caret = styled.div`
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
     &:hover {
-        animation: ${rotate} .5s linear;
+      transform: rotateZ(-30deg);
+        /* animation: ${rotate} .5s linear; */
     }
 `;
 

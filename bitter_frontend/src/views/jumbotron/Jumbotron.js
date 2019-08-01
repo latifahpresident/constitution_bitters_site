@@ -1,14 +1,12 @@
 import React from 'react';
-import { HomeWrapper, HomeBackgroundImage, BottleWrapper, BottleImage, HomeHeader, Header, HeaderSpan} from './homepage-styles';
+import Nav from '../../components/nav/Nav';
+import { HomeWrapper, HomeHeader, Header, HeaderSpan} from './jumbotron-styles';
 import {CustomButton, Caret } from '../../global-styles/custom-styles'
-import {accentColors } from '../../global-styles/colors'
+
 const Homepage = () => {
 return (
     <HomeWrapper>
-        {/* <HomeBackgroundImage></HomeBackgroundImage> */}
-        {/* <BottleWrapper>
-            <BottleImage src={bottle}/>
-        </BottleWrapper> */}
+        <Nav/>
         <HomeHeader>
             <Header><HeaderSpan>Fieldsway</HeaderSpan> Constitution Bitters</Header> 
             <CustomButton home>Discover The Benefits<Caret></Caret></CustomButton>

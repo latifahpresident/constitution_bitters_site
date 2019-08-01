@@ -1,11 +1,16 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 import './App.css';
-import Homepage from './views/homepage/Homepage';
+import LandingPage from './views/landing-page/LandingPage';
 
 function App() {
   return (
     <div className="App">
-      <Homepage/>
+      <Route
+        exact path = '/'
+        render={(props) => <LandingPage {...props}/>}
+      />
+  
     </div>
   );
 }
