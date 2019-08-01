@@ -1,7 +1,8 @@
 const accentColors = [
     '#FE9503',
     '#C26807',
-    '#EB961E'
+    '#EB961E',
+    '#fe9503bb', //transparent accent [3]
 ]
 
 const greenColors = [
@@ -9,6 +10,7 @@ const greenColors = [
     '#73FF60',
     '#2D381D',
     '#71CC72',
+    '#2d381dbb' //transparent green [4]
 ]
 
 const fontColors = [

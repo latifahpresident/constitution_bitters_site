@@ -10,11 +10,16 @@ export const CustomButton = styled.div`
     text-transform: uppercase;
     letter-spacing: 5px;
     cursor: pointer;
-    background-color:#2d381dbb;
+    background-color:${greenColors[4]};
     color: ${fontColors[3]};
     vertical-align: middle;
     padding: 1rem;
-  
+    &:hover {
+        background-color: ${props => props.home ? accentColors[3] : ''};
+        transition: transform .2s;
+        transform: scale(1.15);
+        color: ${greenColors[2]}
+    }
 `;
 
 const rotate = keyframes`

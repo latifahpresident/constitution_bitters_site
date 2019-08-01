@@ -11,7 +11,7 @@ return (
         </BottleWrapper> */}
         <HomeHeader>
             <Header><HeaderSpan>Fieldsway</HeaderSpan> Constitution Bitters</Header> 
-            <CustomButton>Disccover The Benefits<Caret></Caret></CustomButton>
+            <CustomButton home>Discover The Benefits<Caret></Caret></CustomButton>
         </HomeHeader>
     </HomeWrapper>
 )
