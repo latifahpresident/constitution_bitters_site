@@ -69,5 +69,31 @@ export const ImageCard = styled.div`
     padding: 0;
 `;
 
+export const InfoButton = styled.div`
+    min-height: auto;
+    min-width: auto;
+    border: 1px solid ${greenColors[3]};
+    border-radius: 3px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: 20%;
+    cursor: pointer;
+    text-align: center;
+    /* background-color:${greenColors[4]}; */
+    color: ${fontColors[3]};
+    vertical-align: middle;
+    padding: 1rem;
+    &:hover {
+        background-color: ${props => props.home ? accentColors[3] : ''};
+        transition: transform .2s;
+        transform: scale(1.15);
+        color: ${greenColors[2]};
+       
+    }
+    margin-top: 3rem;
+`;
+
+
 
  
