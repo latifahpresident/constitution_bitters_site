@@ -1,5 +1,7 @@
 import styled, {keyframes } from 'styled-components';
 import { fontColors, accentColors, greenColors } from '../global-styles/colors';
+import digestion from '../assets/images/digestion.jpg';
+import weightloss from '../assets/images/weightloss.jpg';
 
 export const CustomButton = styled.div`
     min-height: auto;
@@ -56,6 +58,16 @@ export const Caret = styled.div`
     }
 `;
 
+export const ImageCard = styled.div`
+   background-image: url(${props => props.digest ? digestion : weightloss});
+    min-width: 50%;
+    height: 400px;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+    padding: 0;
+`;
 
 
  

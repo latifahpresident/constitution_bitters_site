@@ -3,7 +3,6 @@ import trees from '../../assets/images/trees.jpg';
 import { fontColors, accentColors, } from '../../global-styles/colors';
 
 export const HomeWrapper = styled.div`
-    position: relative;
     background-image: url(${trees});
     &::before {
         content:"";
