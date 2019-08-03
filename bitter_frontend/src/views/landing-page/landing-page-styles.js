@@ -3,7 +3,7 @@ import { fontColors } from '../../global-styles/colors';
 
 export const LandingPageContentWrapper = styled.div`
      margin: 0 auto;
-     padding: 1rem;
+     padding: 0 1rem;
      background-color: #F2F4F5;
 `;
 export const LandingPageContent = styled.div`
