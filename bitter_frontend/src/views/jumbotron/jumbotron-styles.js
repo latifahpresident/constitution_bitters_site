@@ -4,8 +4,8 @@ import bottle from '../../assets/images/constitution_bitters_bottle.png';
 import { fontColors, accentColors, } from '../../global-styles/colors';
 
 export const HomeWrapper = styled.div`
-    background-image: url(${trees});
-    &::before {
+    /* background-image: url(${trees}); */
+    /* &::before {
         content:"";
         position:absolute;
         left:0;
@@ -29,7 +29,7 @@ export const HomeWrapper = styled.div`
     display: flex;
     justify-content: center;
     border: 2px solid white;
-    color: ${accentColors[2]};
+    color: ${accentColors[2]}; */
 `;
 
 export const BottleWrapper = styled.div`
