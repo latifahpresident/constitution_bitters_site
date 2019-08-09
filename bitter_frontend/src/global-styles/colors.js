@@ -10,7 +10,7 @@ const greenColors = [
     '#73FF60',
     '#2D381D',
     '#71CC72',
-    '#2d381dbb' //transparent green [4]
+    '#2d381dbb', //transparent green [4]
 ]
 
 const fontColors = [
@@ -18,6 +18,7 @@ const fontColors = [
     '#1F2020',
     '#A1A2A4',
     '#EBEAE9',
+    '#EAE9E8', //whitesmoke
 ]
 
 export {
