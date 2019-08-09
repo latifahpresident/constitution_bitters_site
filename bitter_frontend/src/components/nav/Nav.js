@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavWrapper, NavLinks, NavLinkContainer, } from '../nav/nav-styles';
+import { NavWrapper, NavLinks, NavLinkContainer, } from './nav-styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons';
 

@@ -6,7 +6,7 @@ import {CustomButton, Caret } from '../../global-styles/custom-styles'
 const Homepage = () => {
 return (
     <HomeWrapper>
-        <Nav/>
+        {/* <Nav/> */}
         {/* <BottleWrapper> */}
         <HomeHeader>
             <Header><HeaderSpan>Fieldsway</HeaderSpan> Constitution Bitters</Header> 
