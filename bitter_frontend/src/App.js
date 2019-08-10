@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import Nav from './components/nav/Nav';
+import Header from './components/header/Header';
 import LandingPage from './views/landing-page/LandingPage';
 import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
+      <Header/>
       <Route exact path = '/' render={(props) => <LandingPage {...props}/>} />
       <Footer />
     </div>
