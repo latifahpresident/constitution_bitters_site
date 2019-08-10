@@ -1,10 +1,11 @@
 import React from 'react';
+import {FooterWrapper } from './footer-styles';
 
 const Footer = () => {
     return (
-        <div>
-
-        </div>
+        <FooterWrapper>
+about
+        </FooterWrapper>
     )
 }
 
